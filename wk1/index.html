@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limerick</title>
+    <style>
+        body {
+            background-image: url('./images/background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+
+        .search-bar {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-links {
+            display: flex;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .large-text-container {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 200px;
+            margin-left: 20px;
+            width: 400px;
+        }
+
+        .button-container {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: skyblue;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Limerick</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="nav-links">
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="large-text-container">
+        <p>Get exclusive hotel deals to affordable destinations with the travel experts.</p>
+    </div>
+    <div class="button-container">
+        <button class="button">Talk to an expert</button>
+    </div>
+    <footer>
+        <a href="#">Privacy Policy</a>
+    </footer>
+</body>
+</html>
